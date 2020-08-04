@@ -15,7 +15,7 @@
   }
   
   .columnbox {
-    padding-right: 15px;
+    padding-right: 0.5rem;
   }
   .radialbox {
     max-height: 333px;
@@ -24,14 +24,7 @@
   
   .apexcharts-legend-series tspan:nth-child(3) {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.1rem;
   }
   
-  .edit-on-codepen {
-    text-align: right;
-    width: 100%;
-    padding: 0 20px 40px;
-    position: relative;
-    top: -30px;
-    cursor: pointer;
-  }
+  

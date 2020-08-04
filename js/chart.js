@@ -269,7 +269,7 @@ var optionsLine = {
     {
       name: "Mombasa Road",
       data: generateMinuteWiseTimeSeries(
-        new Date("12/12/2020 00:20:00").getTime(),
+        new Date("05/07/2020 00:20:00").getTime(),
         12,
         {
           min: 30,
@@ -280,7 +280,7 @@ var optionsLine = {
     {
       name: "Thika Road",
       data: generateMinuteWiseTimeSeries(
-        new Date("12/12/2016 00:20:00").getTime(),
+        new Date("05/07/2020 00:20:00").getTime(),
         12,
         {
           min: 30,
@@ -294,7 +294,7 @@ var optionsLine = {
     range: 2700000,
   },
   title: {
-    text: "Processes",
+    text: "kenyan roads",
     align: "left",
     style: {
       fontSize: "12px",

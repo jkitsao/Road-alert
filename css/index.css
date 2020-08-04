@@ -9,10 +9,16 @@
     /* background-image: url('../images/kal-visuals-IG1m3RomhPI-unsplash.jpg'); */
     object-fit: cover;
     background-repeat: no-repeat;
+    padding: 0.3rem 1rem;
 }
 .main_section_map{
     /* width:20%; */
     /* position:fixed; */
+    /* margin-top: 1rem; */
+
+}
+.bg-black-c{
+    background-color: rgb(53, 78, 131);
 }
 
 
