@@ -6,7 +6,13 @@
     width:90%;
     height:100vh;
     background-color: rgb(1, 0, 27);
+    /* background-image: url('../images/kal-visuals-IG1m3RomhPI-unsplash.jpg'); */
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 .main_section_map{
     /* width:20%; */
+    /* position:fixed; */
 }
+
+
