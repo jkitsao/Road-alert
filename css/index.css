@@ -7,7 +7,7 @@
     height:100vh;
     background-color: rgb(1, 0, 27);
     /* background-image: url('../images/kal-visuals-IG1m3RomhPI-unsplash.jpg'); */
-    object-fit: cover;
+    /* object-fit: cover; */
     background-repeat: no-repeat;
     padding: 0.3rem 1rem;
 }
@@ -19,6 +19,12 @@
 }
 .bg-black-c{
     background-color: rgb(53, 78, 131);
+}
+.modal-notify .modal-header {
+    border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+    border-radius: 3px;
 }
 
 
