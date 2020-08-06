@@ -50,14 +50,14 @@
         <div class="collapse navbar-collapse" id="navbar4">
         <ul class="navbar-nav mr-auto pl-lg-4">
         <li class="nav-item px-lg-2 active"> <a class="nav-link" href="#"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a> </li>
-        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Services</a> </li>
-        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>About</a> </li>
+        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>My account</a> </li>
+        <li class="nav-item px-lg-2"> <a class="nav-link" href="#"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>Timeline</a> </li>
         
         <li class="nav-item px-lg-2 dropdown d-menu">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-caret-square-down"></i></span>Dropdown
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-caret-square-down"></i></span>My roads
         </a>
         <div class="dropdown-menu shadow-sm sm-menu" aria-labelledby="dropdown01">
-        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Roads</a>
         <a class="dropdown-item" href="#">Another action</a>
         <a class="dropdown-item" href="#">Something else here</a>
         </div>
@@ -89,6 +89,67 @@
       <section class="main_section_1" draggable="true">
         <div>
         <!-- bootstrap moadal form -->
+        <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <form>
+          
+      
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center bg-info ">
+              <h4 class="modal-title w-100 font-weight-bold text-light">Incident report form</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body mx-3">
+              <div class="md-form mb-3">
+                <i class="fas fa-user prefix grey-text"></i>
+                <input type="text" id="form3" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="form3">Your name</label>
+              </div>
+      
+              <div class="md-form mb-2">
+                <i class="fas fa-tag prefix grey-text"></i>
+                <input type="text" id="form32" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="form32">Location of the incident</label>
+              </div>
+              
+        <div class="md-form">
+          <i class="fas fa-pencil prefix grey-text"></i>
+          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+          <label data-error="wrong" data-success="right" for="form8">What is the incident</label>
+        </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button type='submit' class="btn btn-info btn-md">Share <i class="fas fa-paper-plane ml-1"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+      <div class="mx-3 my-2 d-flex">
+        <a href="" class="btn btn-info btn-md btn-rounded mb-1 " data-toggle="modal" data-target="#modalSubscriptionForm">Report incident
+      </a>
+      <div id="menu">
+        <input
+        id="streets-v11"
+        type="radio"
+        name="rtoggle"
+        value="streets"
+        checked="checked"
+        />
+        <label for="streets-v11">streets</label>
+        <input id="light-v10" type="radio" name="rtoggle" value="light" />
+        <label for="light-v10">light</label>
+        <input id="dark-v10" type="radio" name="rtoggle" value="dark" />
+        <label for="dark-v10">dark</label>
+        <input id="outdoors-v11" type="radio" name="rtoggle" value="outdoors" />
+        <label for="outdoors-v11">outdoors</label>
+        <input id="satellite-v9" type="radio" name="rtoggle" value="satellite" />
+        <label for="satellite-v9">satellite</label>
+        </div>
+      </div>
       
       <!-- bootstrap modal form ends here -->
         </div>
@@ -139,9 +200,11 @@
       <section
         class="main_section_map px-4"
         id="map"
-        style="width: 1300px; height: 900px;"
+        style="width: 1400px; height: 900px;"
       ></section>
+      
     </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="js/map.js"></script>
     <script src="js/chart.js"></script>
