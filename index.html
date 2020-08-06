@@ -34,6 +34,15 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.min.js"></script>
+<link
+rel="stylesheet"
+href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.5.1/mapbox-gl-geocoder.css"
+type="text/css"
+/>
+<!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/charts.css" />
   </head>
@@ -91,11 +100,12 @@
         <!-- bootstrap moadal form -->
         <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
-        <form>
+        <form id='iform'>
           
       
         <div class="modal-dialog" role="document">
           <div class="modal-content">
+           
             <div class="modal-header text-center bg-primary ">
               <h4 class="modal-title w-100 font-weight-bold text-light">Incident report form</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -229,7 +239,7 @@
               Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+            <a class="nav-link" data-toggle="tab" href="#panel8" role="tab" ><i class="fas fa-user-plus mr-1"></i>
               Register</a>
           </li>
         </ul>
@@ -253,7 +263,7 @@
                 <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
               </div>
               <div class="text-center mt-2">
-                <button class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+                <button class="btn btn-info"  data-dismiss="modal">Log in <i class="fas fa-sign-in ml-1"></i></button>
               </div>
             </div>
             <!--Footer-->
@@ -292,7 +302,7 @@
               </div>
 
               <div class="text-center form-sm mt-2">
-                <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+                <button class="btn btn-info"  data-dismiss="modal">Sign up <i class="fas fa-sign-in ml-1"></i></button>
               </div>
 
             </div>
@@ -318,5 +328,7 @@
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="js/map.js"></script>
     <script src="js/chart.js"></script>
+    <script src="js/addIncidents.js"></script>
+
   </body>
 </html>
