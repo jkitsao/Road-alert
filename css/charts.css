@@ -1,0 +1,30 @@
+.box .apexcharts-xaxistooltip {
+    background: #1B213B;
+    color: #fff;
+  }
+  
+  .content-area {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .box {
+    background-color: #262D47;
+    padding: 1.3rem 1.3rem; 
+    border-radius: o.2rem; 
+  }
+  
+  .columnbox {
+    padding-right: 0.5rem;
+  }
+  .radialbox {
+    max-height: 333px;
+    margin-bottom: 60px;
+  }
+  
+  .apexcharts-legend-series tspan:nth-child(3) {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  
