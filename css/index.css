@@ -1,24 +1,26 @@
-.main_content{
-    display:flex;
+.main_content {
+    display: flex;
 }
+
+
 /* #map {  top: 0; bottom: 0; width: 100%; } */
-.main_section_1{
-    width:90%;
-    height:100vh;
+
+.main_section_1 {
+    width: 90%;
+    height: 100vh;
     background-color: rgb(1, 0, 27);
     /* background-image: url('../images/kal-visuals-IG1m3RomhPI-unsplash.jpg'); */
     object-fit: cover;
     background-repeat: no-repeat;
     padding: 0.3rem 1rem;
 }
-.main_section_map{
+
+.main_section_map z {
     /* width:20%; */
     /* position:fixed; */
     /* margin-top: 1rem; */
-
 }
-.bg-black-c{
+
+.bg-black-c {
     background-color: rgb(53, 78, 131);
 }
-
-
