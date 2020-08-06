@@ -1,24 +1,24 @@
-.main_content{
-    display:flex;
+.main_content {
+    display: flex;
 }
+
+
 /* #map {  top: 0; bottom: 0; width: 100%; } */
-.main_section_1{
-    width:90%;
-    height:100vh;
+
+.main_section_1 {
+    width: 90%;
+    height: 100vh;
     background-color: rgb(1, 0, 27);
     /* background-image: url('../images/kal-visuals-IG1m3RomhPI-unsplash.jpg'); */
     /* object-fit: cover; */
     background-repeat: no-repeat;
     padding: 0.3rem 1rem;
 }
-.main_section_map{
+
+.main_section_map z {
     /* width:20%; */
     /* position:fixed; */
     /* margin-top: 1rem; */
-
-}
-.bg-black-c{
-    background-color: rgb(53, 78, 131);
 }
 .modal-notify .modal-header {
     border-radius: 3px 3px 0 0;
@@ -26,17 +26,7 @@
 .modal-notify .modal-content {
     border-radius: 3px;
 }
-#menu {
-    /* position: absolute; */
-    background: rgba(32, 27, 70, 0.719);
-    color:rgb(191, 250, 31);
-    padding: 0.5rem;
-    font-family: 'Open Sans', sans-serif;
-    margin:0 4rem;
-    border-radius: 0.4rem;
-    }
-    .mapboxgl-popup {
-        max-width: 400px;
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        }
 
+.bg-black-c {
+    background-color: rgb(53, 78, 131);
+}
