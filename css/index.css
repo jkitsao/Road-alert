@@ -30,3 +30,10 @@
 .bg-black-c {
     background-color: rgb(53, 78, 131);
 }
+#menu {
+    /* position: absolute; */
+    background: #fff;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 3rem;
+    }
