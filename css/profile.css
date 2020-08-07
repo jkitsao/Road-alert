@@ -1,0 +1,18 @@
+.main {
+    background-image: url('../images/kal-visuals-IG1m3RomhPI-unsplash.jpg');
+    ;
+}
+
+.title {
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(53, 78, 131);
+}
+
+.card-title {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(53, 78, 131);
+}
