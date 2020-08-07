@@ -41,3 +41,20 @@
         max-width: 400px;
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
         }
+.us, .map{
+    width: 48%;
+    /* background-color: red; */
+    height: 500px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#table{
+    border: 2px solid black;
+    width: 100%;
+}
+.map{
+    background:url('images/gataka.png');
+    background-size: cover;
+    /* background-color: red; */
+}
